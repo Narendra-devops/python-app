@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('git checkout') {
             steps{
-                https://github.com/Narendra-devops/python-app.git
-        }
+                git 'https://github.com/Narendra-devops/python-app.git'
+            }
     }
 }
