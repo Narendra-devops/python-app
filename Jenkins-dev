@@ -14,7 +14,7 @@ pipeline{
             steps{
                 library 'javahome-libs'
                 tomcatDeploy credId: 'tomcat-dev',
-                             ip: '1172.31.15.20',
+                             ip: '172.31.33.28',
                              userName: 'ec2-user',
                              tomcatHome: '/opt/tomcat8',
                              warName: 'springmvc'
