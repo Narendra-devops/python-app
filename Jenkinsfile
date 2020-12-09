@@ -6,6 +6,11 @@ pipeline{
                 git 'https://github.com/Narendra-devops/python-app.git'
             }
         }
+        stage('maven build'){
+            steps{
+                sh "mven clean package"
+            }
+        }
     }
 }
     
